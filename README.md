@@ -1,0 +1,2 @@
+# The-Automated-Cloth-Hanging-Stand-with-Rain-Detection-System-
+The Automated Cloth Hanging Stand with Rain Detection System uses rain and humidity sensors with a motorized mechanism to protect clothes from unexpected rain. It detects rainfall in real time and automatically retracts clothes under cover, ensuring convenience, efficiency, weather protection, and reducing manual effort in daily life.
