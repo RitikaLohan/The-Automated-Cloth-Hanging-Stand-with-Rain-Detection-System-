@@ -1,0 +1,87 @@
+import matplotlib.pyplot as plt
+import random
+import time
+
+def generate_sensor_readings(direction):
+    if direction == 'right':
+        readings = [random.randint(150, 250), random.randint(850, 950),
+                    random.randint(150, 250), random.randint(850, 950)]
+    elif direction == 'left':
+        readings = [random.randint(850, 950), random.randint(150, 250),
+                    random.randint(850, 950), random.randint(150, 250)]
+    elif direction == 'forward':
+        readings = [random.randint(850, 950), random.randint(850, 950),
+                    random.randint(150, 250), random.randint(150, 250)]
+    elif direction == 'backward':
+        readings = [random.randint(150, 250), random.randint(150, 250),
+                    random.randint(850, 950), random.randint(850, 950)]
+    else:
+        raise ValueError("Invalid direction!")
+
+    return readings
+
+def plot_sensor_readings(direction, readings):
+    positions = ['Front Left', 'Front Right', 'Back Left', 'Back Right']
+    colors = ['red', 'green', 'blue', 'orange']
+
+    plt.figure(figsize=(12, 6))
+
+    # Plot sensor readings
+    plt.subplot(1, 2, 1)
+    for i, pos in enumerate(positions):
+        plt.plot(pos, readings[i], marker='o', color=colors[i], label=pos)
+
+    plt.title(f"Sensor Lux Readings for '{direction.capitalize()}' Direction", fontsize=16)
+    plt.xlabel("Sensor Positions", fontsize=14)
+    plt.ylabel("Lux Readings", fontsize=14)
+    plt.ylim(0, 1000)
+    plt.legend()
+    plt.grid(True)
+
+    # Connect dots
+    for i in range(4):
+        plt.plot(positions, readings, color=colors[i], linestyle='-')
+
+    # Plot movement
+    plt.subplot(1, 2, 2)
+    movement = {
+        'left': (-1, 0),
+        'right': (1, 0),
+        'forward': (0, 1),
+        'backward': (0, -1)
+    }
+
+    x, y = movement[direction]
+
+    plt.arrow(0, 0, x, y, head_width=0.1, head_length=0.1, fc='blue', ec='blue')
+    plt.xlim(-2, 2)
+    plt.ylim(-2, 2)
+    plt.title(f"Movement towards {direction}")
+    plt.xlabel("X Axis")
+    plt.ylabel("Y Axis")
+    plt.grid(True)
+
+    plt.tight_layout()
+    plt.show()
+
+def main():
+    while True:
+        sunlight_detected = input("Is there sunlight detected? (yes/no): ").lower()
+
+        if sunlight_detected == 'yes':
+            direction = input("Enter direction (left/right/forward/backward): ").lower()
+
+            if direction in ['left', 'right', 'forward', 'backward']:
+                readings = generate_sensor_readings(direction)
+                plot_sensor_readings(direction, readings)
+                time.sleep(50)  # Wait for 50 seconds before next input
+            else:
+                print("Invalid direction! Please enter 'left', 'right', 'forward', or 'backward'.")
+        elif sunlight_detected == 'no':
+            print("No sunlight detected.")
+            break
+        else:
+            print("Invalid input! Please enter 'yes' or 'no'.")
+
+if _name_ == "_main_":
+    main()
