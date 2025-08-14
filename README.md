@@ -8,7 +8,7 @@ The **Automated Cloth Hanging Stand with Rain Detection System** is an innovativ
 
 The system integrates **rain detection sensors**, **humidity sensors**, and **motorized mechanisms** to automatically move clothes under shelter when rain is detected. Using a combination of **water detection** and **environmental monitoring**, it ensures accurate and timely responses to changing weather conditions.
 
-**Patent Status:** This project is **patented**and **published** under **Application No.: 202411003795.**
+**Patent Status:** This project is **patented** and **published** under **Application No.: 202411003795.**
 
 ### **Key Components**
 
