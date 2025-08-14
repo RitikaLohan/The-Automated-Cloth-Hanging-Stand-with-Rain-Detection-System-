@@ -8,6 +8,8 @@ The **Automated Cloth Hanging Stand with Rain Detection System** is an innovativ
 
 The system integrates **rain detection sensors**, **humidity sensors**, and **motorized mechanisms** to automatically move clothes under shelter when rain is detected. Using a combination of **water detection** and **environmental monitoring**, it ensures accurate and timely responses to changing weather conditions.
 
+**Patent Status:** This project is** patented** and **published** under ****Application No.: 202411003795.**
+
 ### **Key Components**
 
 - **Rain Sensor** – Detects water droplets and triggers the retraction mechanism.  
@@ -40,3 +42,24 @@ The system integrates **rain detection sensors**, **humidity sensors**, and **mo
 ### **Benefits**
 
 This project saves time, prevents clothes from getting wet during sudden rain, and adds a layer of automation to everyday life. It demonstrates the practical application of **IoT, sensors, and automation** in home improvement, making it a valuable project for students, hobbyists, and innovators.
+
+With its **patented** and **published** status **(Application No.: 202411003795)**, this project stands as a **unique, innovative,** and **legally recognized solution** in the field of **home automation.**
+
+
+**Patent Details**
+
+**Patent Title:** The Automated Cloth Hanging Stand with Rain Detection System
+
+**Application Number:** 202411003795
+
+**Application Type:** Ordinary Application
+
+**Status:** Published
+
+**Type:** Innovation in IoT-based Home Automation
+
+**Filing Date:** 19/01/2024
+
+**Publication Date:** 09/02/2024
+
+**Inventor/Applicant:** Ritika Lohan
