@@ -63,3 +63,13 @@ With its **patented** and **published** status **(Application No.: 202411003795)
 **Publication Date:** 09/02/2024
 
 **Inventor/Applicant:** Ritika Lohan
+
+
+
+**Working Stand Video Link Here:-**
+https://www.linkedin.com/posts/ritika-lohan-0a7477295_%F0%9D%90%96%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%A5-%F0%9D%90%92%F0%9D%90%A1%F0%9D%90%A8%F0%9D%90%B0%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%9E-activity-7364663180326797312-UnZ9?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEdwJr8BV2gpLw1uPzw3xglac0uuDy4TLKo&utm_campaign=copy_link 
+
+
+
+**Animation Video Link Here:-**
+https://www.linkedin.com/posts/ritika-lohan-0a7477295_%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A3%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD-%F0%9D%90%92%F0%9D%90%A1%F0%9D%90%A8%F0%9D%90%B0%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%9E-activity-7364663848831737857-P7hb?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEdwJr8BV2gpLw1uPzw3xglac0uuDy4TLKo&utm_campaign=copy_link
